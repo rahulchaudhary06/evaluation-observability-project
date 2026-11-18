@@ -1,0 +1,32 @@
+Environment Setup for Capstone Submission
+==========================================
+
+OS Information:
+  OS: Linux (gvisor)
+  Kernel: 4.19.0-gvisor
+
+Python Environment:
+  Python Version: 3.11.18
+  Installation Method: uv (astral.sh/uv)
+
+Virtual Environment Setup:
+  All three systems use Python 3.11.18
+  Venvs created with: uv venv --seed --python 3.11
+
+System Locations:
+  System 1 (Policy Pipeline):
+    Path: /voc/work/cd15552-Claude-AI-Engineer-Evaluation-and-Observability/Build a Validated, Routed Insurance Policy Extraction Pipeline/04-hitl-routing/solution
+    Venv: .venv (Python 3.11.18)
+    Command: policy-extractor
+
+  System 2 (Mortgage Extraction):
+    Path: /voc/work/cd15552-Claude-AI-Engineer-Evaluation-and-Observability/Build a Resilient Mortgage Document Extraction System/04-validate-mathematical-consistency/solution
+    Venv: .venv (Python 3.11.18)
+    Command: mortgage-extract
+
+  System 3 (Supply Chain):
+    Path: /voc/work/cd15552-Claude-AI-Engineer-Evaluation-and-Observability/Investigate Supply Chain Risk with Multi-Source Synthesis/03-resilient-coordinator/solution
+    Venv: .venv (Python 3.11.18)
+    Command: supply-chain-investigate
+
+Date Run: 2026-11-18

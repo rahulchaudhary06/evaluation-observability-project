@@ -1,0 +1,11 @@
+The document appraisal_informal_sqft.txt was classified as "appraisal" by the first-pass classifier.
+
+Evidence from solution fixtures (recorded_responses/6c27b9aada3f5f4a.json):
+
+Document classification response:
+{
+  "document_type": "appraisal",
+  "reason": "This is a Uniform Residential Appraisal Report (Form 1004) containing property valuation analysis through sales comparison and cost approaches, appraiser certification, and a final appraised market value of $410,000 for the subject property."
+}
+
+The document content shows it is a Uniform Residential Appraisal Report for property at 4827 Brookhaven Court, Fairhope, NC 28734, with gross living area of approximately 2,400 sq ft and final appraised value of $410,000. The classifier correctly identified this as an appraisal document based on the presence of Form 1004 structure, sales comparison approach, cost approach, and appraiser certification details.
